@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.sid.learning</groupId>
+	<artifactId>software-architecture-design</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>software-architecture-design</name>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	<modules>
+		<module>solid-principals</module>
+		<module>behavioral-patterns</module>
+		<module>creational-patterns</module>
+		<module>structural-pattern</module>
+		<module>mvc-pattern</module>
+		<module>service-locator</module>
+	</modules>
+</project>
